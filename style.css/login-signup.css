@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(././coffee-cup-diary-book-pen.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    object-fit: cover;
+    object-position: center;
+    font-family: "popins",sans-serif;
+    color: white;
+    
+}
+
+.login-form{
+    padding-left: 6rem;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.input-field{
+    max-width: 370px;
+    width: 100%;
+    height: 55px;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 15% 85%;
+
+}
+.input-field ion-icon{
+    text-align: center;
+    line-height: 50px;
+    color: #FFFF;
+    font-size: 40px;
+    opacity: 0.6;
+}
+
+.input-field input{
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+    border-radius: 10px;
+    opacity: 0.6;
+    
+}
+
+.input-field input:active,
+.input-field input:hover{
+    box-shadow: 2rem 0rem 2rem 0 rgba(255, 251, 251, 0.3);
+    transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+}
+
+.input-field input::placeholder{
+    color: rgb(13, 12, 12);
+    font-weight: 500;
+    padding: 20px;
+}
+
+.input-in{
+    padding: 10px 30px;
+}
+
+
+.btn{
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    /* background-color: rgb(34, 32, 21); */
+    color: rgb(18, 13, 13);
+    font-weight: 600;
+    margin: 10px 0;
+    text-transform: uppercase;
+    transition: .5s;
+    opacity: 0.6;
+}
+
+.btn:active,
+.btn:hover{
+    box-shadow: 2rem 0rem 2rem 0 rgba(255, 251, 251, 0.3);
+    transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+}
+
+.link{
+    color: #F8EFBA;
+    padding: 10px;
+}
+
+.link:hover{
+    color: black;
+}
+
+#container-login{
+    display: none;
+}

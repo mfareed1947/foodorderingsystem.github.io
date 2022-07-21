@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+header {
+    background-color: #51361a;
+    width: 100%;
+    height: 100%;
+
+}
+
+.main-header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0.2rem 1rem 0 rgba(29, 29, 33, 30%);
+
+}
+
+.logout-btn {
+    margin-right: 60px;
+}
+
+.logout-btn button {
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #cc4717, #b84a00, #cc4717);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+
+}
+
+.logout-btn button:hover {
+    box-shadow: 0 0.2rem 1rem 0 rgba(29, 29, 33, 30%);
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* <=====================================================
+        Menu side
+=====================================================> */
+
+.menu {
+    position: absolute;
+    top: 68px;
+    left: 40px;
+    width: 910px;
+    height: 65px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #8d5620; */
+    
+}
+
+.menu button {
+    background: none;
+    border: none;
+    padding: 16px 110px;
+    text-align: center;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color: white;
+
+}
+
+.menu button:hover,
+.menu button:active {
+    background-color: #8b4513;
+    color: black;
+    transition: all 0.4s ease 0s;
+
+}
+
+/* <=====================================================
+        Section left side
+=====================================================> */
+
+
+#section-left1 {
+    width: 940px;
+    height: 600px;
+    background-color: rgb(255, 219, 248);
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 12px 14px 7px 0px rgba(41, 40, 40, 0.75);
+    -webkit-box-shadow: 12px 14px 7px 0px rgba(41, 40, 40, 0.75);
+    -moz-box-shadow: 12px 14px 7px 0px rgba(41, 40, 40, 0.75);
+}
+
+#section-left2 {
+    width: 940px;
+    height: 600px;
+    background-color: rgb(255, 219, 248);
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 12px 14px 7px 0px rgba(41, 40, 40, 0.75);
+    -webkit-box-shadow: 12px 14px 7px 0px rgba(41, 40, 40, 0.75);
+    -moz-box-shadow: 12px 14px 7px 0px rgba(41, 40, 40, 0.75);
+}
+
+#section-left3 {
+    width: 940px;
+    height: 600px;
+    background-color: rgb(255, 219, 248);
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 12px 14px 7px 0px rgba(41, 40, 40, 0.75);
+    -webkit-box-shadow: 12px 14px 7px 0px rgba(41, 40, 40, 0.75);
+    -moz-box-shadow: 12px 14px 7px 0px rgba(41, 40, 40, 0.75);
+}
+
+.display-sections {
+    display: none;
+}
+
+
+.items {
+    width: 170px;
+    height: 130px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    box-shadow: 4px 3px 5px 1px rgba(41, 40, 40, 0.75);
+    -webkit-box-shadow: 8px 7px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 7px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+/* <=====================================================
+        Section Coffee menu side
+=====================================================> */
+
+
+#prod1 {
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+
+#prod2 {
+    position: absolute;
+    bottom: 100px;
+    left: 350px;
+}
+
+#prod3 {
+    position: absolute;
+    bottom: 100px;
+    left: 650px;
+}
+
+#prod4 {
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
+#prod5 {
+    position: absolute;
+    top: 130px;
+    left: 350px;
+}
+
+#prod6 {
+    position: absolute;
+    top: 130px;
+    left: 650px;
+}
+
+.img-edit {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 17px;
+    top: -87px;
+}
+
+.details-pord {
+    position: absolute;
+    top: 48px;
+    left: 20px;
+
+}
+
+.btn-add {
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: rgb(212, 8, 8);
+    position: absolute;
+    left: 110px;
+    top: 43px;
+    border-radius: 100% 0% 100% 0% / 50% 63% 27% 100%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.btn-add:hover{
+    background-color: rgb(44, 42, 42);
+    color: white;
+}
+
+.coffee-items {
+    display: inline;
+}
+
+/* <=====================================================
+        Section Cakes menu side
+=====================================================> */
+
+#cakes-prod1{
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+#cakes-prod2{
+    position: absolute;
+    bottom: 100px;
+    left: 350px;
+}
+#cakes-prod3{
+    position: absolute;
+    bottom: 100px;
+    left: 650px;
+}
+#cakes-prod4{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+#cakes-prod5{
+    position: absolute;
+    top: 130px;
+    left: 350px;
+}
+#cakes-prod6{
+    position: absolute;
+    top: 130px;
+    left: 650px;
+}
+
+.img-edit-pastries{
+    width: 130px;
+    height: 100px;
+    position: absolute;
+    left: 17px;
+    top: -53px;
+}
+
+.details-pord{
+    position: absolute;
+    top: 48px;
+    left: 20px;
+
+}
+
+.cakes-items{
+    display: inline;
+}
+/* <=====================================================
+        Section Shakes menu side
+=====================================================> */
+
+#shakes-prod1{
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+#shakes-prod2{
+    position: absolute;
+    bottom: 100px;
+    left: 350px;
+}
+#shakes-prod3{
+    position: absolute;
+    bottom: 100px;
+    left: 650px;
+}
+#shakes-prod4{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+#shakes-prod5{
+    position: absolute;
+    top: 130px;
+    left: 350px;
+}
+#shakes-prod6{
+    position: absolute;
+    top: 130px;
+    left: 650px;
+}
+
+.img-edit{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 17px;
+    top: -87px;
+}
+
+.details-pord{
+    position: absolute;
+    top: 48px;
+    left: 20px;
+
+}
+
+.shakes-items{
+    display: inline;
+}
+
+/* <=====================================================
+        Section right side
+=====================================================> */
+
+.section-right {
+    position: relative;
+    width: 350px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 60px;
+    margin-bottom: 58px;
+    border-radius: 15px;
+    box-shadow: 12px 14px 7px 0px rgba(41, 40, 40, 0.75);
+    -webkit-box-shadow: 12px 14px 7px 0px rgba(41, 40, 40, 0.75)rgba(41, 40, 40, 0.75);
+    -moz-box-shadow: 12px 14px 7px 0px rgba(41, 40, 40, 0.75)rgba(41, 40, 40, 0.75);
+}
+
+.cart-title{
+font-size: 1.5rem;
+font-weight: 600;
+}
+
+.cart-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.cart-para {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addpord-cart{
+    position: absolute;
+    left: 25%;
+    max-height: 250px;
+    width: 350px;
+    margin-top: 1rem;
+    /* background-color: aqua; */
+    overflow: scroll;
+}
+
+.cart-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cart-img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+}
+
+.product-inf{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.cart-prod-title{
+    
+    font-size: 1rem;
+}
+
+.cart-price{
+    font-weight: 500;
+}
+
+.cart-quantity{
+max-width: 2.4rem;
+max-height: 70px;
+text-align: center;
+font-size: 1rem;
+border: 1px solid rgb(94, 93, 93);
+outline-color: rgb(201, 38, 38);
+}
+
+.cart-remove{
+    font-size: 24px;
+    color:rgb(201, 38, 38) ;
+    cursor: pointer;
+}
+
+.btn-buy{
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background-color: rgb(201, 38, 38);
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    
+}
+
+.btn-buy:hover{
+    background-color: rgb(44, 42, 42);
+    box-shadow: 4px 3px 5px 1px rgba(41, 40, 40, 0.75);
+    color: white;
+}
+
